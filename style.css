@@ -1,3 +1,8 @@
 .table_of_contents {
   color: green;
+  text-align: center;
+}
+
+.page_links {
+  text-align: left;
 }
