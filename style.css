@@ -1,8 +1,28 @@
-.table_of_contents {
-  color: green;
-  text-align: center;
+@font-face {
+  font-family: "Lato";
+  src: url(fonts\Lato\Lato-Regular.ttf);
+  format: ("ttf");
+  font-style: normal;
+  font-weight: normal;
+}
+
+* {
+  border: 2px red; /* add solid between 2px and red to turn the border on for box model*/
+  font-family: "Lato", sans-serif;
+}
+
+.landing_page_title {
+  color: red;
+  width: fit-content;
+  height: fit-content;
+  margin: auto;
+  margin-top: 5px;
+  font-size: 50px;
 }
 
 .page_links {
-  text-align: left;
+  width: fit-content;
+  height: fit-content;
+  margin: auto;
+  margin-top: 5px;
 }
