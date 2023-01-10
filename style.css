@@ -13,7 +13,7 @@
 
 .landing_page_title {
   /* italian phrasebook title page */
-  color: red;
+  color: rgba(207, 39, 52, 255);
   width: fit-content;
   height: fit-content;
   margin: auto;
@@ -32,5 +32,18 @@
 .landing-desc {
 }
 
-.italyflag1 {
+body {
+  position: relative;
+}
+
+#lflag {
+  left: 450px;
+  position: absolute;
+  bottom: 250px;
+}
+
+#rflag {
+  right: 450px;
+  position: absolute;
+  bottom: 250px;
 }
