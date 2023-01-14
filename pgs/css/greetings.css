@@ -1,0 +1,37 @@
+@font-face {
+  font-family: "Lato";
+  src: url(fonts\Lato\Lato-Regular.ttf);
+  format: ("ttf");
+  font-style: normal;
+  font-weight: normal;
+}
+
+* {
+  border: 2px red; /* add solid between 2px and red to turn the border on for box model*/
+  font-family: "Lato", sans-serif;
+}
+
+.greetings-title {
+  color: rgba(207, 39, 52, 255);
+  width: fit-content;
+  height: fit-content;
+  margin: auto;
+  margin-top: 5px;
+  font-size: 50px;
+  padding: 30px;
+}
+
+table,
+td {
+  border: 1px solid #333;
+  margin: auto;
+  width: fit-content;
+  height: fit-content;
+  font-size: 25px;
+}
+
+thead,
+tfoot {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
