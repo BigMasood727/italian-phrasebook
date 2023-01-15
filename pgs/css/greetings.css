@@ -21,6 +21,11 @@
   padding: 30px;
 }
 
+a#back {
+  font-size: 30%;
+  margin-left: 20px;
+}
+
 table,
 td {
   border: 1px solid #333;
