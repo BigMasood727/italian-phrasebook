@@ -1,0 +1,24 @@
+@font-face {
+    font-family: "Lato";
+    src: url(fonts\Lato\Lato-Regular.ttf);
+    format: ("ttf");
+    font-style: normal;
+    font-weight: normal;
+  }
+  
+  * {
+    border: 2px red; /* add solid between 2px and red to turn the border on for box model*/
+    font-family: "Lato", sans-serif;
+
+  }
+
+.culture-title {
+    color: rgba(207, 39, 52, 255);
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+    margin-top: 5px;
+    font-size: 40px;
+    padding: 30px;
+    text-align: center;
+  }
