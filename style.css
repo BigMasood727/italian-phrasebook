@@ -37,13 +37,13 @@ body {
 }
 
 #lflag {
-  left: 450px;
+  left: 250px;
   position: absolute;
-  bottom: 250px;
+  bottom: 300px;
 }
 
 #rflag {
-  right: 450px;
+  right: 250px;
   position: absolute;
-  bottom: 250px;
+  bottom: 300px;
 }
